@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Login page</title>
+<style type="text/css">
+	body
+	{
+	     background-image: url('all11.jpg');
+	     background-repeat: no-repeat;
+	     background-attachment: fixed;
+		 background-size: cover;
+	}
+	div
+	{
+		color:white;
+	}
+</style>
+</head>
+<body>
+<div>
+<center>
+<form name="logform" action="Admin_LogIN" method="get">
+<h3>Login</h3>
+User Id  : <input type="text" name="value1" value=""/><br/><br/>
+Password : <input type="password" name="value2" value=""/><br/><br/>
+<input type="Submit" name="Submit" value="Submit" onclick="return func()"/>
+</form>
+</center>
+</div>
+<script>
+	function func()
+	{
+		var x=document.forms["logform"]["loguserid"].value;
+		if(x=="")
+		{
+			alert("Enter the user id");
+			return false;
+		}
+		var y=document.forms["logform"]["logpassword"].value;
+		if(y=="")
+		{
+			alert("Enter the password");
+			return false;
+		}
+	}
+	
+	document.getElementById("sub1").onclick=function(){
+		location.href="adminpage.html";
+		}
+	
+</script>
+</body>
+</html>

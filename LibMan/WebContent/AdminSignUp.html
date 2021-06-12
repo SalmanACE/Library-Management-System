@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Create</title>
+<link rel="stylesheet" href="style.css">
+<style type="text/css">
+	body
+	{
+	     background-image: url('all11.jpg');
+	     background-repeat: no-repeat;
+	     background-attachment: fixed;
+		 background-size: cover;
+	}
+	
+	div
+	{
+		color:white;
+	}
+</style>
+</head>
+<body>
+<div>
+<center>
+<form name="cform"  method="get" action="Admin_signUp">
+First name  :<input type="text" name="fname" value=""/><br/><br/>
+Last name   :<input type="text" name="lname" value=""/><br/><br/>
+gender      :<input type="radio" name="gender">Male	<input type="radio" name="gender">Female		<input type="radio" name="gender">other<br/><br/>
+Phone number:<input type="text" name="pnum" value=""/><br/><br/>
+address     :<input type="text" name="address" value=""/><br/><br/>
+User id     :<input type="text" name="cuserid" value=""/><br/><br/>
+password    :<input type="password" name="cpassword" value=""/><br/><br/>
+confirm     :<input type="password" name="cconfirm" value=""/><br/><br/>
+Profession  :<input type="text" name="cprofession" value=""/><br/><br/>
+<input type="submit" name="submit" value="submit" onclick="return func1()"><br/><br/> 
+</form>
+
+</center>
+</div>
+<script>
+	function func1()
+	{
+		var i;
+		var j;
+		var x = document.forms["cform"]["fname"].value;
+		if(x == "")
+		{
+			alert("Please fill the First proper name");
+			return false;
+		}
+		
+		for(i=0;i<x.length;i++)
+		{
+			for(j=0;j<9;j++){
+			if(x[i] == j)
+			{
+				alert("The name should not contain the number");
+				return false;
+			}}
+		}
+		
+		var y = document.forms["cform"]["lname"].value;
+		if(y == "")
+		{
+			alert("Please fill the proper Last name");
+			return false;
+		}
+		
+		for(i=0;i<y.length;i++)
+		{
+			for(j=0;j<9;j++){
+			if(y[i] == j)
+			{
+				alert("The name should not contain the number");
+				return false;
+			}}
+		}
+		
+		var z = document.forms["cform"]["pnum"].value;
+		if(isNaN(z) || z.length>10 || z.length<10)
+		{
+			alert("Enter the valid phone number");
+			return false;
+		}
+		
+		var p = document.forms["cform"]["cpassword"].value;
+		var p1 = document.forms["cform"]["cconfirm"].value;
+		if(p != p1)
+		{
+			alert("Enter the password correctly");
+		}
+		
+		
+	}
+		document.getElementById("id1").onclick=function(){location.href="frame3.html"};
+</script>
+</body>
+</html>

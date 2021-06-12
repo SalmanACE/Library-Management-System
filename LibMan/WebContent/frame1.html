@@ -1,0 +1,84 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+     background-image: url('all11.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+	 background-size: cover
+}
+button:hover{
+	color:red;
+}
+button:active{
+	color:yellow;
+}
+button:visited{
+	color:pink;
+}
+#demo1
+{
+	color:white;
+}
+#demo2
+{
+	color:white;
+}
+#demo3
+{
+	color:white;
+}
+#demo4
+{
+	color:white;
+}
+#demo5
+{
+	color:white;
+}
+</style>
+
+</head>
+<body>
+<button onclick="home()" style="font-size: 18pt; height: 40px; width:255px; ">Home</button><br/>
+<div id="demo1"></div><br/>
+<button onclick="about()" style="font-size: 18pt; height: 40px; width:255px; ">About</button><br/>
+<div id="demo2"></div><br/>
+<button onclick="help()" style="font-size: 18pt; height: 40px; width:255px; ">Help</button><br/>
+<div id="demo3"></div><br/>
+<button onclick="management()" style="font-size: 18pt; height: 40px; width:255px; ">Management</button><br/>
+<div id="demo4"></div><br/>
+<button onclick="other()" style="font-size: 18pt; height: 55px; width:255px; ">Other Information</button><br/>
+<div id="demo5"></div><br/>
+<div id="007">
+<script>
+	function home()
+	{
+		document.getElementById("demo1").innerHTML="kongu library is the largest library located in Perundhurai erode.it is Tamilnadu's largest library by volume.It is the largest in tn with a collection in excess of 2.2 lakhs books.this library is especially meant for students and the facilities of the kongu engineering college. The basic information about the library is here ";
+	}
+	function about()
+	{
+		document.getElementById("demo2").innerHTML="This library also consist of various books, journals, newspapers, magazines, sound and music recordings, patents, databases, maps, stamps, prints, drawings and manuscripts";
+	}
+	function help()
+	{
+		document.getElementById("demo3").innerHTML="help line(KEC LIBRARY):04294 226 555";
+	}
+	function management()
+	{
+		document.getElementById("demo4").innerHTML="kongu library is under the ministry of Kongu Engineering College is an autonomous engineering college located at Perundurai, Erode district in the state of Tamil Nadu in India Director:dr.Balusamy Contact:04294 226 555";
+	}
+	function other()
+	{
+		document.getElementById("demo5").innerHTML="Students of KEC are allowed to take a maximum 4 books at a time and the books should be returned to the librarian within the due date. incase of missing of books the amount of the appropriate book must be paid by the individual.";
+													
+	}
+	function admin()
+	{
+		document.getElementById("demo6").innerHTML=" Admin ";
+	}
+</script>
+</div>
+</body>
+</html>
