@@ -11,16 +11,23 @@ Features :
 Hardware Requirements :
 	
 	- Proccessor 		    : Pentium 4 or Later
+	
 	- Memory    		    : 2 GB minimum - 4 GB maximum
+	
 	- Screen Resolution 	    : 1280x1024 or larger
+	
 	- Application Windows Size  : 1024x680 or larger
+	
 	- Internet connection 	    : Required
 
 Software Requirements :
 
 	- Operating System	:	Windows 10
+	
 	- Environment		:	JAVA
+	
 	- Scripting language	:	HTML, JavaScript, CSS
+	
 	- Database		:	MS ACCESS
 
 ## How it works
@@ -30,14 +37,19 @@ Software Requirements :
 These are the main goals of this module 
 
 	- All major info about the user will be received. 
+	
 	- Roll number will be the unique id for the user.
 
 These are the scripting languages and environment used in this module 
 
 	- HTML is used to create user interface.
+	
 	- CSS is used for design the user interface.
+	
 	- JAVA act as a intermediate between database and front end.
+	
 	- MS ACCESS is the main database.
+	
 	- SERVLET is a framework which is used to reduce manual work.
 
 ### Book Collection
@@ -45,16 +57,23 @@ These are the scripting languages and environment used in this module
 These are the main goals of this module 
 
 	- In book collection all the information about the book will be collected.
+	
 	- Details of book like author, publication, edition, will be maintained. 
+	
 	- The details about books present in library.
+	
 	- Books which are taken by the student.
 	
 These are the scripting languages and environment used in this module 
 
 	- HTML is used to create user interface.
+	
 	- CSS is used for design the user interface.
+	
 	- JAVA act as a intermediate between database and front end.
+	
 	- MS ACCESS is the main database.
+	
 	- SERVLET is a framework which is used to reduce manual work.
 
 
@@ -63,14 +82,19 @@ These are the scripting languages and environment used in this module
 These are the main goals of this module
 
 	- Admin can add, remove, edit the book and its details.
+	
 	- Admin can maintain the information about the user and Book taken list. 
 
 These are the scripting languages and environment used in this module 
 
 	- HTML is used to create user interface.
+	
 	- CSS is used for design the user interface.
+	
 	- JAVA act as a intermediate between database and front end.
+	
 	- MS ACCESS is the main database.
+	
 	- SERVLET is a framework which is used to reduce manual work.
 
 #### JAVA 
@@ -86,7 +110,9 @@ This application is written in Java.
 The application uses multi threading in order to process events asynchronously.
 	
 	- Session was created when the user login to the application.
+	
 	- Session will notify the each process and store it temporarly.
+	
 	- When the user log out the session, Session details will be vanished. 
 
 ## Installation, Configuration and Running 
@@ -105,6 +131,3 @@ These are the some third party packages used for JDBC
 IDE used in our project 
 
 - [Eclipse](https://www.eclipse.org/downloads/)
-
-
-
