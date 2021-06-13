@@ -4,7 +4,7 @@ Features :
 
 	- Easy to maintain database.
  	- It is cost effective.
-	-  Keep record of complete info of a book like title, author name.
+	- Keep record of complete info of a book like title, author name.
 
 ## Requirements 
 
